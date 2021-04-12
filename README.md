@@ -23,7 +23,7 @@ Replace original data columns
 If checked, the projected DataFrame/RDD will not contain columns that were included in the principal component analysis. Only the projected columns and the input columns that were not included in the principal component analysis remain.
 Columns
 Select columns that are included in the analysis of principal components, i.e the original features.
-SMOTE is an oversampling algorithm that relies on the concept of nearest neighbours to create its synthetic data. Proposed back in 2002 by Chawla et. al., SMOTE has become one of the most popular algorithms for oversampling. 
+SMOTE is an oversampling algorithm that relies on the concept of nearest neighbours to create its synthetic data. 
 The simplest case of oversampling is simply called oversampling or up sampling, meaning a method used to duplicate randomly selected data observations from the outnumbered class. 
 Oversampling’s purpose is for us to feel confident the data we generate are real examples of already existing data. This inherently comes with the issue of creating more of the same data we currently have, without adding any diversity to our dataset, and producing effects such as overfitting. 
 Hence, if overfitting affects our training due to randomly generated, up sampled data– or if plain oversampling is not suitable for the task at hand– we could resort to another, smarter oversampling technique known as synthetic data generation.
